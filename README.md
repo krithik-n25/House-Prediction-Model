@@ -35,3 +35,8 @@ To manually predict the price of a house using the trained model:
    ```bash
    python interactive_prediction.py
    ```
+## What I learned
+
+Income is by far the strongest predictor. Location matters a lot too. The simple linear model underfit pretty badly, but XGBoost nailed it once I tuned the hyperparameters.
+
+Feel free to mess around with the feature engineering or try different models.   
