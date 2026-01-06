@@ -5,6 +5,7 @@ This project implements machine learning models to predict house prices using th
 ## Project Structure
 - `data/housing.csv`: The dataset used for training and prediction.
 - `house_price_prediction.ipynb`: Jupyter Notebook containing the code for EDA, training, and prediction.
+- `model_training/interactive_prediction.py`: Script to manually input house features and get a price prediction.
 - `requirements.txt`: List of Python dependencies.
 
 ## Models Used
@@ -17,4 +18,20 @@ This project implements machine learning models to predict house prices using th
 - **Scatter Plot**: Median Income vs. Median House Value.
 - **Distribution Plot**: Distribution of Median House Values.
 
+## How to Run
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Open the Jupyter Notebook:
+   ```bash
+   jupyter notebook house_price_prediction.ipynb
+   ```
+3. Run all cells to see the analysis and model results.
 
+## Interactive Prediction Tool
+To manually predict the price of a house using the trained model:
+1. Run the script:
+   ```bash
+   python interactive_prediction.py
+   ```
